@@ -27,7 +27,7 @@ header {
 
 main {
     background-color: rgb(14, 125, 222);
-    padding-bottom: 205px;
+    padding-bottom: 80px;
 }
 
 .bottoni { 
@@ -124,4 +124,8 @@ main {
 
 .pink {
     background-color: rgb(215, 51, 202);
+}
+
+.spazio {
+    padding-top: 10px;
 }
