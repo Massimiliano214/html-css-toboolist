@@ -26,7 +26,7 @@ header {
 }
 
 main {
-    background-color: skyblue;
+    background-color: rgb(14, 125, 222);
     height: 400px;
 }
 
@@ -46,6 +46,9 @@ main {
     margin: auto;
     background-color: white;
     margin-top: 50px;
+    border: 1px solid rgb(14, 125, 222);
+    border-radius: 30px;
+    margin-top: 30px;
 }
 
 .posizionamento {
