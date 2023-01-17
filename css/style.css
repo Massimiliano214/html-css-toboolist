@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }   
 
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
     margin-top: 10px;
     margin-left: 20px;
@@ -56,9 +61,17 @@ main {
     content: "\2714";
 }
 
+.cross::after {
+    content: "\274C";
+}
+
 .sottotitolo{
     font-weight: bold;
     font-size: 25px;
+}
+
+#rosso {
+    border-color: red;
 }
 
 .check_verde {
@@ -73,12 +86,36 @@ main {
 
 .bollino {
     font-size: 14px;
-    background-color: cornflowerblue;
     color: white;
     padding: 8px;
     border-radius: 15px;
+    margin-left: 10px;
 }
 
 .spazio_basso {
     margin-bottom: 20px;
+}
+
+.cornflowerblue {
+    background-color: cornflowerblue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.aqua {
+    background-color: rgb(0, 183, 128);
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: rgb(7, 240, 7);
+}
+
+.pink {
+    background-color: rgb(215, 51, 202);
 }
