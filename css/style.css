@@ -10,7 +10,7 @@ header {
     margin-bottom: 15px;
 }
 
-span {
+#titolo {
     font-weight: bold;
     font-size: 40px;
     vertical-align: middle;
@@ -33,12 +33,52 @@ main {
     
 }
 
+#bottone_blue {
+    background-color: cornflowerblue;
+}
 .conteiner {
-    margin-top: 200px;
     width: 70%;
     margin: auto;
     background-color: white;
-    border-radius: 10px;
-    
+    margin-top: 50px;
 }
 
+.posizionamento {
+    width: 85%;
+    margin: 20px auto;
+}
+
+.gruppo_bottoni {
+    margin-bottom: 10px;
+}
+
+.check::after {
+    content: "\2714";
+}
+
+.sottotitolo{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.check_verde {
+    border: 1px solid green;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+    color: green;
+}
+
+.bollino {
+    font-size: 14px;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.spazio_basso {
+    margin-bottom: 20px;
+}
