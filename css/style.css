@@ -12,7 +12,7 @@ body {
 header {
     margin-top: 10px;
     margin-left: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 #titolo {
@@ -27,7 +27,7 @@ header {
 
 main {
     background-color: rgb(14, 125, 222);
-    height: 400px;
+    padding-bottom: 205px;
 }
 
 .bottoni { 
@@ -41,19 +41,21 @@ main {
 #bottone_blue {
     background-color: cornflowerblue;
 }
+
 .conteiner {
     width: 70%;
-    margin: auto;
+    margin: 0 auto;
     background-color: white;
-    margin-top: 50px;
     border: 1px solid rgb(14, 125, 222);
-    border-radius: 30px;
-    margin-top: 30px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    margin-top: 50px;
 }
 
 .posizionamento {
     width: 85%;
-    margin: 20px auto;
+    margin: 10px auto 20px;
+    font-weight: 500;
 }
 
 .gruppo_bottoni {
@@ -71,6 +73,7 @@ main {
 .sottotitolo{
     font-weight: bold;
     font-size: 25px;
+    margin-top: 40px;
 }
 
 #rosso {
