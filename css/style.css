@@ -7,12 +7,12 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(14, 125, 222);
 }
 
 header {
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-bottom: 10px;
+    background-color: white;
+    padding: 20px;
 }
 
 #titolo {
@@ -23,11 +23,6 @@ header {
 
 .logo {
     vertical-align: middle;
-}
-
-main {
-    background-color: rgb(14, 125, 222);
-    padding-bottom: 80px;
 }
 
 .bottoni { 
@@ -49,7 +44,7 @@ main {
     border: 1px solid rgb(14, 125, 222);
     border-radius: 10px;
     padding-bottom: 30px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .posizionamento {
@@ -127,6 +122,6 @@ main {
 }
 
 .spazio {
-    padding-top: 10px;
+    padding-top: 40px;
 }
 
