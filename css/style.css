@@ -31,8 +31,9 @@ header {
     padding: 7px;
     border-radius: 10px;
     margin-top: 15px;
-    
 }
+
+
 
 #bottone_blue {
     background-color: cornflowerblue;
@@ -54,6 +55,8 @@ header {
 
 .tasks {
     list-style-type: none;
+    font-size: 22px;
+    vertical-align: middle;
 }
 
 .posizionamento {
@@ -76,27 +79,29 @@ header {
 
 .sottotitolo{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 40px;
 }
 
 #rosso {
     border-color: red;
+    font-size: smaller;
 }
 
 .check_verde {
     border: 1px solid green;
     border-radius: 50%;
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
     display: inline-block;
     text-align: center;
     color: green;
     margin-left: 0;
+    vertical-align: middle;
 }
 
 .bollino {
-    font-size: 14px;
+    font-size: 16px;
     color: white;
     padding: 8px;
     border-radius: 15px;
