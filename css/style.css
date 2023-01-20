@@ -8,6 +8,7 @@ body {
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
     background-color: rgb(14, 125, 222);
+    padding-bottom: 90px;
 }
 
 header {
@@ -17,17 +18,17 @@ header {
 
 #titolo {
     font-weight: bold;
-    font-size: 60px;
+    font-size: 55px;
     vertical-align: middle;
 }
 
 .logo {
     vertical-align: middle;
-    height: 60px;
+    height: 55px;
 }
 
 .bottoni { 
-    font-size: 22px;
+    font-size: 16px;
     padding: 7px;
     border-radius: 10px;
     margin-top: 15px;
@@ -55,7 +56,7 @@ header {
 
 .tasks {
     list-style-type: none;
-    font-size: 22px;
+    font-size: 16px;
     vertical-align: middle;
 }
 
@@ -79,13 +80,15 @@ header {
 
 .sottotitolo{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 40px;
 }
 
 #rosso {
     border-color: red;
     font-size: smaller;
+    padding-top: 4px;
+    
 }
 
 .check_verde {
@@ -98,6 +101,7 @@ header {
     color: green;
     margin-left: 0;
     vertical-align: middle;
+    padding-top: 2px;
 }
 
 .bollino {
