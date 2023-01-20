@@ -87,25 +87,25 @@ header {
 #rosso {
     border-color: red;
     font-size: smaller;
-    padding-top: 4px;
+    padding-top: 2px;
     
 }
 
 .check_verde {
     border: 1px solid green;
     border-radius: 50%;
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     display: inline-block;
     text-align: center;
     color: green;
     margin-left: 0;
     vertical-align: middle;
-    padding-top: 2px;
+    
 }
 
 .bollino {
-    font-size: 16px;
+    font-size: 12px;
     color: white;
     padding: 8px;
     border-radius: 15px;
